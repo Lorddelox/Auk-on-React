@@ -4,6 +4,7 @@ import { Alert } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AukListItems from "../aukListItem/aukListItems";
 function App() {
+
   console.log("hello");
   return (
 
@@ -13,7 +14,7 @@ function App() {
           Помойный Аукцион
         </Alert>
       </header>
-      <AukListItems />
+      <AukListItems addvalue={"ЖОПА"} />
     </div>
   );
 }
